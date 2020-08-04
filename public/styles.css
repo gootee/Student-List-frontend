@@ -1,0 +1,103 @@
+@import url('reset.css');
+
+#main {
+  background-color: lightgrey;
+}
+
+#student-list {
+  margin: 40px auto;
+  border: 1px solid grey; 
+  border-radius: 10px;
+  background-color: white;
+  min-width: 600px;
+}
+
+input {
+  border: 0px;
+}
+
+.add-tag-input:focus,
+.add-tag-input:active,
+#name-input:focus, 
+#name-input:active,
+#tag-input:focus, 
+#tag-input:active {
+  border: none;
+  outline: none;
+}
+
+#student {
+  margin: 0 0 5px 0;
+}
+
+.fas {
+  color: grey;
+}
+
+#student .student-left {
+  margin: 10px 0;
+}
+
+#student .student-left .grade{
+  margin: 0 0 0 10px;
+}
+
+#student .student-left .student-grade-list {
+  margin: 15px 0 0 0;
+}
+
+#student .student-left .add-tag-input {
+  width: 100%;
+  color: grey;
+}
+
+#student .tag-container {
+  margin: 0 5px;
+}
+
+#student .tag {
+  display: inline;
+}
+
+#name-input {
+  width: 100%;
+  color: lightgrey;
+  border-bottom: 1px solid grey;
+  margin: 20px 0 10px 0;
+}
+
+#tag-input {
+  border-bottom: 1px solid grey; 
+  width: 100%;
+  color: lightgrey;
+  margin: 0 0 10px 0;
+}
+
+#student .student-right {
+  margin: 15px 0 0 0;
+}
+
+#student .student-icon {
+  margin: auto 10px;
+}
+
+#student .student-icon img {
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+#student .student-text p {
+  font-size: .75em;
+  color: grey;
+  margin: 0 0 0 20px;
+}
+
+#student .student-name {
+  font-weight: bold;
+  font-size: 1.75em;
+  min-width: 400px;
+}
+
+
